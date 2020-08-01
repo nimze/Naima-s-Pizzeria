@@ -1,0 +1,289 @@
+@import url('https://fonts.google.com/specimen/Qwigley?category=Handwriting');
+html,body {
+  scroll-behavior: smooth;
+
+}
+
+/* nav-bar */
+ul,li,a {
+	color:#00FF00;
+}
+
+nav .navbar {
+	margin: 0;
+	width: 95%;
+}
+/* landing */
+.landing {
+  background: url(https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/02/Best-Pizza-Restaurants-London-768x960.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #808000;
+  background-attachment: fixed;
+}
+
+.overlay {
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(0, 0, 0, 0.3);
+}
+.first {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+
+}
+.first h1 {
+	color: #F5F500;
+  font-size: 4.5em;
+  font-family: 'UnifrakturMaguntia', serif;
+}
+
+.first p {
+	color:#FF00FF;
+	font-size: 1.3rem;
+	line-height: 1.5;
+	font-size: 2em;
+}
+
+/* about section */
+
+span.emoji {
+	font-size: 30px;
+	vertical-align: middle;
+	line-height: 2;
+  }
+
+#about h2 {
+  font-size: 2rem !important;
+  color: #ffa500;
+}
+#about p {
+  font-size: 1.2rem !important;
+  font-family: 'Pompiere', serif;
+}
+/* cuisine-section */
+.carousel-item.active, .carousel-item .view {
+  height: 70vh!important;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width:100%!important;
+  height: 100% !important;
+}
+
+.content h3 {
+font-size: 55px;
+}
+
+@media screen and (max-width: 320px) {
+  .content h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .content h3 {
+    font-size: 30px;
+  }
+
+  
+}
+
+.content h5 {
+  font-size: 23px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 320px) {
+  .content h5 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .content h5 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* order section */
+.order{
+  background-attachment: fixed;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ-QlcRIfkWQJNGD9_4lANd2nOFQYTYwESyg&usqp=CAU);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay{
+  background-color:rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.order h2 {
+  text-align: center;
+}
+.choice{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver{
+  display: none;
+}
+.pick-up{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 20px;
+  color: white;
+}
+.choice h2{
+  color:orange;
+  text-align: left;
+}
+#your-orders{
+  color: white;
+  font-size: 30px;
+}
+#addedprice{
+  display: none;
+}
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards{
+  text-align: center;
+  color: aliceblue;
+}
+#info{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffa500;
+}
+button {
+  border-radius: 15px;
+  background-color: burlywood;
+}
+
+footer {
+	margin-top: -6px;
+	background-color: palevioletred;
+	padding: 50px 0px;
+}
+
+footer #copyright {
+  color: white;
+  font-size: 20px;
+}
+
+footer .location h4 {
+	margin-top: 0px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+footer .location ul li {
+	font-size: 15px;
+	color: #fff;
+	display: inline;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer .location ul li:first-child {
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(250, 250, 250, 0.1);
+}
+
+footer .contact-info h4 {
+	margin-top: 0px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+footer .contact-info ul li {
+	font-size: 13px;
+	color: #fff;
+	display: inline-block;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 300;
+	margin-bottom: -15px;
+}
+
+footer .contact-info ul li em {
+	font-style: normal;
+	font-weight: 500;
+}
+
+footer .connect-us h4 {
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 35px;
+}
+
+footer .connect-us ul li {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+footer .connect-us ul li a {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	color: #373a3c;
+	font-size: 15px;
+  transition: all 0.3s;
+  padding: 0px 0 20px;
+}
+footer .connect-us ul li a:hover {
+	background-color: #f7c552;
+}
