@@ -1,16 +1,12 @@
- 360 DEGREES PIZZERIA
+360 DEGREES PIZZERIA
 
- A website that enables a customer to place their pizza orders and get an estimate price. Delivery is optional.
+A website that enables a customer to place their pizza orders and get an estimate price. Delivery is optional.
 
- Author:
- Naima Abdi
- 
- 
- 
+Author: Naima Abdi
+
 Description
 
 A website that hoists an idealised view of how a pizzeria website would look like, including an installed version of Git.
-
 
 Setup/Installation Requirements
 
@@ -22,11 +18,9 @@ To run the application in your terminal:
 
 -Open the index.html on the browser
 
-
 BDD
 
 The user is prompted to order a pizza of their preferrence and check-out with an alert showing their order.
-
 
 Known Bugs
 
@@ -46,7 +40,6 @@ To fix a bug or enhance an existing module, follow these steps:
 
 -Create a Pull Request
 
-
 Technologies Used
 
 -HTML and CSS
@@ -56,9 +49,6 @@ Technologies Used
 -TerminalCLI(Command Line Interface)
 
 -Javascript
-
-
-
 
 License
 
